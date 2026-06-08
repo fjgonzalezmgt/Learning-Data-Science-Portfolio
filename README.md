@@ -17,16 +17,18 @@ flowchart LR
     B --> D[Exploración y visualización]
     B --> E[Modelado]
     B --> F[Documentación reproducible]
+    B --> G[Analítica recreativa]
 
-    C --> G[Habilidades transferibles]
-    D --> G
-    E --> G
-    F --> G
+    C --> H[Habilidades transferibles]
+    D --> H
+    E --> H
+    F --> H
+    G --> H
 
-    G --> H[Calidad]
-    G --> I[Operaciones]
-    G --> J[Supply Chain]
-    G --> K[Quality Analytics]
+    H --> I[Calidad]
+    H --> J[Operaciones]
+    H --> K[Supply Chain]
+    H --> L[Quality Analytics]
 ```
 
 Esta línea funciona como laboratorio de aprendizaje público. Ayuda a mostrar cómo se desarrollan capacidades analíticas que luego pueden aplicarse a problemas operativos más específicos.
@@ -42,6 +44,7 @@ Esta línea funciona como laboratorio de aprendizaje público. Ayuda a mostrar c
 | Visualización | gráficos, comparaciones y tableros simples | comunicar hallazgos a usuarios no técnicos |
 | Modelado | clasificación, predicción o comparación de modelos | evaluar señales, riesgos o patrones operativos |
 | Documentación | notebooks y repositorios explicativos | hacer el análisis revisable y reutilizable |
+| Publicación web | proyectos personales y sitios públicos | comunicar análisis fuera del entorno técnico |
 | Aprendizaje técnico | proyectos en dominios diversos | ampliar criterio analítico sin exponer datos sensibles |
 
 ---
@@ -56,6 +59,20 @@ Esta línea funciona como laboratorio de aprendizaje público. Ayuda a mostrar c
 | Análisis deportivo / eventos | [WCUP2026](https://github.com/fjgonzalezmgt/WCUP2026) | Análisis y estructuración de datos relacionados con Mundial 2026 |
 | Shiny / aplicaciones exploratorias | [shiny_apps](https://github.com/fjgonzalezmgt/shiny_apps) | Práctica con interfaces analíticas y aplicaciones Shiny |
 | Utilidades / práctica técnica | [wheel](https://github.com/fjgonzalezmgt/wheel) | Práctica técnica o exploración de componentes reutilizables |
+
+---
+
+## Proyectos personales de analítica recreativa
+
+Estos proyectos funcionan como laboratorio personal para practicar análisis, visualización, publicación web y comunicación de datos usando temas de entretenimiento, deportes, gaming y simulación.
+
+| Proyecto | Sitio / repositorio | Qué demuestra |
+|---|---|---|
+| Gamer Insight Analytics | [gamerinsightanalytics.com](https://gamerinsightanalytics.com/) | Sitio personal sobre gaming, cultura digital, sports analytics y sim racing |
+| World Cup 2026 Analytics | [Gamer Insight Analytics](https://gamerinsightanalytics.com/) | Análisis recreativo de datos deportivos y visualización pública |
+| F1 Cockpit / Sim Racing | [Gamer Insight Analytics](https://gamerinsightanalytics.com/) | Exploración personal de simulación, setup, experiencia y posible análisis de datos de carrera |
+
+No forman parte del núcleo profesional de Quality Analytics. Su función es mostrar curiosidad analítica, práctica pública con datos no confidenciales y capacidad de comunicar proyectos fuera del entorno técnico tradicional.
 
 ---
 
@@ -114,7 +131,8 @@ Las habilidades desarrolladas aquí fortalecen las demás líneas del ecosistema
 - visualización para comunicar patrones;
 - modelado para evaluar señales y riesgos;
 - documentación reproducible para sostener aprendizaje técnico;
-- interfaces analíticas para acercar análisis a usuarios no técnicos.
+- interfaces analíticas para acercar análisis a usuarios no técnicos;
+- publicación web para comunicar análisis a audiencias más amplias.
 
 ---
 
